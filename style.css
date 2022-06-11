@@ -170,7 +170,7 @@ body{
   }
 
 }
-@media (max-width: 280px){
+@media (max-width: 340px){
   .card{
     padding: 2rem;
     /* height: 420px; */
