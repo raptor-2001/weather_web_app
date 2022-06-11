@@ -178,7 +178,15 @@ body{
   }
   /* search bar */
   #search-input{
-    width: 60%;
+    width: 80%;
+  }
+
+}
+@media (max-width: 280px){
+  
+  /* search bar */
+  #search-input{
+    width: 75%;
   }
 
 }
