@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <link rel="stylesheet" href="style.css">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How's the weather today</title>
+</head>
+<body>
+<!-- Conatiner -->
+  <div class="container">
+
+    <!-- card -->
+    <div class="card">
+
+       <div class = 'title'>
+        Weather App
+      </div>
+      <!-- search-bar -->
+      <div class="search">
+        <input type="text"id="search-input" placeholder="Enter city name">
+        
+          <i class="fa fa-search"></i>
+        
+      </div>
+
+      <!-- Loader -->
+      <div class="loader-hide">Loading...</div>
+
+      <!-- content -->
+      <div class="weather-info">
+        <h2>Weather in <span class="city">Kolkata</span></h2>
+        
+        <!-- info -->
+        <div class="icon-box">
+          <div class="temp">51°C</div>
+          <img src=" http://openweathermap.org/img/wn/10d.png" alt="icon" class="icon"/>
+          <div class="icon-input">Rainy</div>
+        </div>
+        <div class="draw">
+          <div class="">Humidity</div>
+          <div class="humidity">60%</div>
+          <div class="">Wind </div>
+          <div class="wind">13 km/h</div>
+        </div> 
+
+
+      </div>
+
+    </div>
+    
+  </div>
+  
+
+  <script src="https://kit.fontawesome.com/d7261063d5.js" crossorigin="anonymous"></script>
+  <script src="weather.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+  
+</body>
+</html>
